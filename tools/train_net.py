@@ -1,5 +1,6 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 """
+New
 Detection Training Script.
 
 This scripts reads a given config file and runs the training or evaluation.

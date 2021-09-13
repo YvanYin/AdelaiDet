@@ -395,3 +395,4 @@ def build_fcos_resnet_bifpn_backbone(cfg, input_shape: ShapeSpec):
         norm=cfg.MODEL.BiFPN.NORM
     )
     return backbone
+# new
