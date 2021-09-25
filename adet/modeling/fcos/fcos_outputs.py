@@ -488,6 +488,7 @@ class FCOSOutputs(nn.Module):
             per_candidate_inds = candidate_inds[i]
             per_box_cls = per_box_cls[per_candidate_inds]
 
+
             per_candidate_nonzeros = per_candidate_inds.nonzero()
             per_box_loc = per_candidate_nonzeros[:, 0]
             per_class = per_candidate_nonzeros[:, 1]
