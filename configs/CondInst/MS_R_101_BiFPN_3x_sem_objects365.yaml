@@ -15,8 +15,8 @@ MODEL:
 DATASETS:
   TRAIN: ("objects365_train",)
 SOLVER:
-  STEPS: (300000, 400000)
-  MAX_ITER: 500000
+  STEPS: (400000, 550000)
+  MAX_ITER: 650000
 OUTPUT_DIR: "output/condinst_MS_R_101_3x_bifpn_sem"
 TEST:
   EVAL_PERIOD: 0
